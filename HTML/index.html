@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail</title>
+    <link rel="shortcut icon" href="" />
+    <link
+      href="https://fonts.googleapis.com/icon ?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stule/all.css" />
+  </head>
+  <body>
+    <div class="fixed">
+      <header>
+        <div class="burger-menu">
+          <span class="material-icons">menu</span>
+          <img class="menu-logo" src="../img/logo.jpeg" alt="logo" />
+        </div>
+        <div class="center-menu">
+          <span class="material-icons"> search</span>
+          <input
+            type="text"
+            placeholder="Search mail"
+            class="center-menu-input"
+          />
+          <span class="material-icons">arrow_drop_down</span>
+        </div>
+
+        <div class="right-menu">
+          <span class="material-icons">apps</span>
+          <span class="material-icons">notifications</span>
+          <span class="material-icons">account_circle</span>
+        </div>
+      </header>
+
+      <div class="aside-menu">
+        <div class="aside-menu-item aside-menu-title">
+          <span class="material-icons">add</span>
+          <span class="menu-item-text">Compose</span>
+        </div>
+
+        <a href="../HTML/primary.html" target="messages">
+          <div class="aside-menu-item item-red">
+            <span class="material-icons">inbox</span>
+            <span>inbox</span>
+          </div>
+        </a>
+
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">star</span>
+          <span>starred</span>
+        </div>
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">schedule</span>
+          <span>snoozed</span>
+        </div>
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">label_important</span>
+          <span>important</span>
+        </div>
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">send</span>
+          <span>sent</span>
+        </div>
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">drafts</span>
+          <span>drafts</span>
+        </div>
+        <div class="aside-menu-item item-grey">
+          <span class="material-icons">expand_more</span>
+          <span>more</span>
+        </div>
+
+        <div class="aside-menu-inner">
+          <div class="material-icons">person</div>
+          <div class="material-icons">duo</div>
+          <div class="material-icons">call</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="container-menu">
+          <input class="black-input" type="checkbox" />
+          <span class="material-icons">arrow_drop_down</span>
+          <span class="material-icons">redo</span>
+          <span class="material-icons">more_vert</span>
+        </div>
+
+        <div class="container-setings">
+          <span class="material-icons">chevron_left</span>
+          <span class="material-icons">chevron_right</span>
+          <span class="material-icons">keyboard_hide</span>
+          <span class="material-icons">settings</span>
+        </div>
+      </div>
+
+      <div class="main-menu">
+        <a href="primary.html" target="messages">
+          <div class="main-menu-item menu-red">
+            <span class="material-icons">inbox</span>
+            <span> primary</span>
+          </div>
+        </a>
+
+        <a href="./social.html" target="messages">
+          <div class="main-menu-item menu_blue">
+            <span class="material-icons">group</span>
+            <span>social</span>
+          </div>
+        </a>
+
+        <a href="./promotions.html" target="messages">
+          <div class="main-menu-item menu_green">
+            <span class="material-icons">sell</span>
+            <span>promotions</span>
+          </div>
+        </a>
+      </div>
+
+      <iframe src="./primary.html" frameborder="0" name="messages"></iframe>
+    </div>
+  </body>
+</html>

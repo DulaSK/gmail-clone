@@ -1,0 +1,57 @@
+@import url(../stule/style.css);
+@import url(../stule/messages.css);
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v129/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  .fixed{
+      position: fixed;
+      width: 100%;
+  }
+  
+  body {
+      color: grey;
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  .material-icons:hover { 
+    background: whitesmoke;
+    border-radius: 50%;
+  }
+
+  .material-icons:active {
+      color: #000;
+      background: rgb(221, 220, 220);
+  }
+
+  iframe {
+    width: 79%;
+    height: 75vh;
+}
+
+  strong {
+    color: black;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}

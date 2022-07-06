@@ -1,0 +1,32 @@
+.messages {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    gap: 10px;
+    text-transform: capitalize;
+    border-bottom: 1px solid whitesmoke;  
+}
+
+.messages:hover {
+    box-shadow: 2px 1px 2px 1px;
+
+}
+
+
+.messages-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.messages-text {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin: 0 10px;
+}
+
+.messages-text:visited {
+    color: gray;
+}
